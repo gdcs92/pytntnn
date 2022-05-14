@@ -11,7 +11,7 @@ import math
 import numpy as np
 import scipy.linalg as la
 
-from lsq_solve import lsq_solve
+from .lsq_solve import lsq_solve
 
 
 @dataclass
