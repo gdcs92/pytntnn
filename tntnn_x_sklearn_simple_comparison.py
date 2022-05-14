@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from scipy.linalg import norm
 
-from pytntnn.tntnn import tntnn
+from pytntnn import tntnn
 
 print("Create a NNLS problem")
 # Generate some random data
